@@ -98,7 +98,8 @@ public class Main extends JPanel {
         while (x<11 && (data[y][x+1].equals("G") || data[y][x+1].equals("GG"))) {
             move(4);
         }
-
+        gameStatus = "Game Over";
+        drawTable();
     }
 
 
